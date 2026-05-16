@@ -1,1 +1,24 @@
-{"name": "customer-directory", "version": "1.0.0", "scripts": {"dev": "vite", "build": "vite build", "serve": "vite serve"}, "dependencies": {"react": "^18.2.0", "react-dom": "^18.2.0", "react-router-dom": "^6.4.0", "axios": "^1.2.1", "zustand": "^4.1.5", "framer-motion": "^7.6.13", "lucide-react": "^0.6.2", "@types/google.maps": "^3.43.3", "pg": "^8.8.0", "typescript": "^4.9.4"}, "devDependencies": {"vite": "^4.1.0", "@vitejs/plugin-react": "^2.2.0"}}
+{
+  "name": "online-booking-system",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/main.tsx",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "Preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0",
+    "axios": "^0.27.2",
+    "stripe": "^9.11.1",
+    "pg": "^8.7.3",
+    "zustand": "^4.1.1",
+    "framer-motion": "^7.3.1",
+    "lucide-react": "^0.1.3",
+    "typescript": "^4.8.3",
+    "vite": "^3.1.0"
+  }
+}
