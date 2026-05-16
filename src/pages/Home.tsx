@@ -1,12 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-const Home = () => {
+function Home() {
   return (
-    <div>
-      <h1>Welcome to Online Booking System</h1>
-      <p>Please navigate to the Booking page to schedule a pickup or drop-off.</p>
+    <div className="home">
+      <h1>Welcome to the Order Tracking System</h1>
+      <p>Track the status of your order in real-time</p>
+      <Link to="/order-tracker">Start Tracking</Link>
     </div>
   );
-};
+}
 
-export { Home };
+export default Home;
