@@ -1,21 +1,16 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Home } from './pages/Home';
-import { Booking } from './pages/Booking';
-import { Login } from './pages/Login';
-import { Header } from './components/Header';
-import { Footer } from './components/Footer';
+import Home from './pages/Home';
+import OrderTracker from './pages/OrderTracker';
+import './styles/app.css';
 
 function App() {
   return (
     <BrowserRouter>
-      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/booking" element={<Booking />} />
-        <Route path="/login" element={<Login />} />
+        <Route path="/order-tracker" element={<OrderTracker />} />
       </Routes>
-      <Footer />
     </BrowserRouter>
   );
 }
