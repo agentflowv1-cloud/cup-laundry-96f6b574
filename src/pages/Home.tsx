@@ -1,1 +1,12 @@
-import React from 'react'; function Home() { return <h1>Welcome to Customer Directory</h1>; } export default Home;
+import React from 'react';
+
+const Home = () => {
+  return (
+    <div>
+      <h1>Welcome to Online Booking System</h1>
+      <p>Please navigate to the Booking page to schedule a pickup or drop-off.</p>
+    </div>
+  );
+};
+
+export { Home };
