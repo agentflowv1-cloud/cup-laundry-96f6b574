@@ -1,0 +1,1 @@
+import React from 'react'; function Home() { return <h1>Welcome to Customer Directory</h1>; } export default Home;
