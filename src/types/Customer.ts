@@ -1,0 +1,1 @@
+interface Customer { name: string; address: string; lat: number; lng: number; } export default Customer;
